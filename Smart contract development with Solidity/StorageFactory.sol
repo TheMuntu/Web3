@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;  //solidity version
-import "./SimpleStorage.sol";
+import {SimpleStorage, SimpleStorage2 } from "./SimpleStorage.sol";
 
 /**
 contract SimpleStorage {
@@ -37,11 +37,12 @@ contract SimpleStorage {
 
 contract StorageFactory{
 
-    SimpleStorage public simpleStorage; // create an object of the previous function
+    SimpleStorage[] public listOfSimpleStorageContracts; // create an object of the previous function
 
     function CreateSimpleStorageContract() public {
         // How does the storage factory know what simple storage looks like?
-        simpleStorage = new SimpleStorage(); // instanciate the object
+        SimpleStorage newSimpleStorageContract = new SimpleStorage();
+        listOfSimpleStorageContracts.push(newSimpleStorageContract);
 
     }
 
