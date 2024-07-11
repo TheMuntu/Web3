@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.19;  //solidity version
+pragma solidity 0.8.18;  //solidity version
 
 
 import {SimpleStorage} from "./SimpleStorage.sol";
