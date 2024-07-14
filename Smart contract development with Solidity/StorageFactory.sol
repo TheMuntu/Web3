@@ -15,7 +15,6 @@ contract SimpleStorage {
 
     // dynamic array
     Person[] public listOfPeople;
-    // Person public john = Person({favoriteNumber: 7, name: "John"});
 
     mapping (string => uint256) public nameToFavoriteNumber;
 
