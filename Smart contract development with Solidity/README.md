@@ -81,7 +81,14 @@ Examples:
 
 [Rollups](https://www.youtube.com/watch?v=6_nOYsvXMsE)
 
-Blockchain Rollup: Scaling solution that increases the number of transactions on the L1 chain
+Blockchain Rollup: Scaling solution that increases the number of transactions on the L1 chain.
+
+## Solidity
+
+Variable types:
+- `memory`: Temporary variables that can be modified.
+- `calldata`: Temporary variables that can't be modified.
+- `storage`: Permanent variables that can be modified.
 
 
 
