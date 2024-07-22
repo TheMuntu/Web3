@@ -91,6 +91,11 @@ Variable types:
 - `storage`: Permanent variables that can be modified.
 
 
+Mapping:
+```
+mapping (string => uint256) public nameToFavoriteNumber;
+```
+
 
 
 
