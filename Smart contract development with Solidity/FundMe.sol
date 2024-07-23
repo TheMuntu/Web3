@@ -8,6 +8,15 @@ contract FundMe{
     uint256 minimumUsd = 5e18;
     address[] public funders;
     mapping (address funder => uint256 amountFunded) public addressToAmountFunded;
+
+
+    address public owner;
+
+    constructor() {
+        owner = msg.sender;
+
+    }
+
     function fund() public payable {
 
         require(getConversionRate(msg.value) >= minimumUsd, "didn't send enough eth");
@@ -34,7 +43,8 @@ contract FundMe{
         return ethAmountInUsd;
     }
 
-    function withdraw() public {
+    function withdraw() public onlyOwner {
+
         // for loop
         // [1, 2, 3, 4] elements
         // 0, 1, 2, 3 indexes
@@ -59,6 +69,12 @@ contract FundMe{
         require(callSuccess, "Call failed");
         
         
+    }
+
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Sender is not owner!");
+        _;
     }
 
 }
