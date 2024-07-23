@@ -10,3 +10,5 @@
 ## [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)
 
 ## [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs)
+
+## [SpeedRun Ethereum](https://speedrunethereum.com/)
