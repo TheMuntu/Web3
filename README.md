@@ -6,3 +6,5 @@
 2. [Solidity Basics](https://updraft.cyfrin.io/courses/solidity)
 3. [Foundry fundamentals](https://updraft.cyfrin.io/courses/foundry)
 4. [Advanced Foundry](https://updraft.cyfrin.io/courses/advanced-foundry)
+
+## [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)
