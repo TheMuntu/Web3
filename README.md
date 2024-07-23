@@ -8,3 +8,5 @@
 4. [Advanced Foundry](https://updraft.cyfrin.io/courses/advanced-foundry)
 
 ## [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)
+
+## [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs)
