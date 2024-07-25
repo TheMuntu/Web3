@@ -12,5 +12,3 @@
 ## [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs)
 
 ## [SpeedRun Ethereum](https://speedrunethereum.com/)
-
-## TrufleSuite
