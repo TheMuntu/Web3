@@ -24,7 +24,7 @@ contract StdChainsMock is Test {
 contract StdChainsTest is Test {
     function test_ChainRpcInitialization() public {
         // RPCs specified in `foundry.toml` should be updated.
-        assertEq(getChain(1).rpcUrl, "https://eth-mainnet.alchemyapi.io/v2/WV407BEiBmjNJfKo9Uo_55u0z0ITyCOX");
+        assertEq(getChain(1).rpcUrl, "https://eth-mainnet.alchemyapi.io/v2/[Add your API KEY]");
         assertEq(getChain("optimism_sepolia").rpcUrl, "https://sepolia.optimism.io/");
         assertEq(getChain("arbitrum_one_sepolia").rpcUrl, "https://sepolia-rollup.arbitrum.io/rpc/");
 
